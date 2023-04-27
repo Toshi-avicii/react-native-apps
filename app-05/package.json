@@ -1,0 +1,31 @@
+{
+  "name": "app-05",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@maniac-tech/react-native-expo-read-sms": "^1.1.0",
+    "axios": "^1.3.4",
+    "expo": "~48.0.9",
+    "expo-permissions": "~14.1.1",
+    "expo-sms": "~11.2.1",
+    "expo-status-bar": "~1.4.4",
+    "input": "^1.0.1",
+    "react": "18.2.0",
+    "react-native": "0.71.4",
+    "react-native-android-sms-listener": "^0.8.0",
+    "react-native-sms-retriever": "^1.1.1",
+    "regex": "^0.1.1",
+    "telegram": "^2.15.15",
+    "telegram-bot-api": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
